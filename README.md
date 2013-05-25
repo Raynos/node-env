@@ -1,15 +1,21 @@
 # node-env
 
-[![build status][1]][2] [![dependency status][3]][4]
+<!-- [![build status][1]][2] [![dependency status][3]][4]
 
-[![browser support][5]][6]
+[![browser support][5]][6] -->
 
 Just require the NODE_ENV environmental variable
 
 ## Example
 
 ```js
+var NODE_ENV = require("node-env")
 
+if (NODE_ENV === "production") {
+    /* serious time */
+} else if (NODE_ENV === "development") {
+    /* fs.watch the entire disk!! */
+}
 ```
 
 ## Installation
