@@ -16,10 +16,7 @@
     "url": "https://github.com/Raynos/node-env/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {
-    "global": "~2.0.2",
-    "process": "~0.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~1.0.2"
   },

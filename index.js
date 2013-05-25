@@ -1,4 +1,5 @@
-var window = require("global/window")
-var process = require("process")
-
-module.exports = process.env.NODE_ENV || window.NODE_ENV
+if (typeof window !== "undefined") {
+    module.exports = window.NODE_ENV
+} else if (typeof process !== "undefined") {
+    module.exports = process.env.NODE_ENV
+}
