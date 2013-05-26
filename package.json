@@ -1,6 +1,6 @@
 {
   "name": "node-env",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Just require the NODE_ENV environmental variable",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
