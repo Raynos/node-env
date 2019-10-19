@@ -1,8 +1,8 @@
 var test = require("tape")
 
-var node-env = require("../index")
+var nodeEnv = require("../index")
 
-test("node-env is a function", function (assert) {
-    assert.equal(typeof node-env, "function")
+test("node-env is a string", function (assert) {
+    assert.equal(typeof nodeEnv, "string")
     assert.end()
 })
